@@ -1,55 +1,9 @@
-- **Guilherme Barreto Santos** - RM97674  
-- **Nicolas Oliveira da Silva** - RM98939
+#Guilherme Barreto Santos** - RM97674  
+#Nicolas Oliveira da Silva** - RM98939
 
 # 🍷 Winery - Web Service SOAP
 
 Projeto acadêmico de desenvolvimento de Web Services utilizando o protocolo SOAP, com implementação em Java e Maven, dividido em um publicador de serviços e dois clientes consumidores.
-
-## 📦 Estrutura do Projeto
-
-Winery/
-│
-├── Publisher/
-│   └── WinerySys/
-│       ├── pom.xml
-│       └── src/
-│           └── main/
-│               ├── java/
-│               │   └── br/
-│               │       └── com/
-│               │           └── fiap/
-│               │               └── winery/
-│               │                   ├── WineStockService.java
-│               │                   ├── WineStockServiceImplementation.java
-│               │                   ├── WineWarningService.java
-│               │                   ├── WineWarningServiceImplementation.java
-│               │                   └── Loader.java
-│               └── resources/
-│
-├── Consumer/
-│   ├── WineStockClient/
-│   │   ├── pom.xml
-│   │   └── src/
-│   │       └── main/
-│   │           ├── java/
-│   │           │   └── br/
-│   │           │       └── com/
-│   │           │           └── fiap/
-│   │           │               └── winery/
-│   │           │                   └── ApplicationClient1.java
-│   │           └── resources/
-│   │
-│   └── WineOrderClient/
-│       ├── pom.xml
-│       └── src/
-│           └── main/
-│               ├── java/
-│               │   └── br/
-│               │       └── com/
-│               │           └── fiap/
-│               │               └── winery/
-│               │                   └── ApplicationClient2.java
-│               └── resources/
 
 ## 🔧 Tecnologias Utilizadas
 
