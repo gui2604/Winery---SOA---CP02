@@ -1,18 +1,18 @@
-# Guilherme Barreto Santos** - RM97674  
-# Nicolas Oliveira da Silva** - RM98939
+# Guilherme Barreto Santos - RM97674  
+# Nicolas Oliveira da Silva - RM98939
 
-# 🍷 Winery - Web Service SOAP
+## 🍷 Winery - Web Service SOAP
 
 Projeto acadêmico de desenvolvimento de Web Services utilizando o protocolo SOAP, com implementação em Java e Maven, dividido em um publicador de serviços e dois clientes consumidores.
 
-## 🔧 Tecnologias Utilizadas
+### 🔧 Tecnologias Utilizadas
 
 - Java 17+
 - Maven
 - Jakarta JAX-WS (jaxws-rt)
 - SOAP (Simple Object Access Protocol)
 
-## 📡 Serviços Disponibilizados
+### 📡 Serviços Disponibilizados
 
 1. **WineStockService**
    - `getMenu()`: retorna lista de vinhos disponíveis.
@@ -21,7 +21,7 @@ Projeto acadêmico de desenvolvimento de Web Services utilizando o protocolo SOA
 2. **WineWarningService**
    - `sendWarn()`: retorna um aviso sobre o estoque.
 
-## ▶️ Como Executar
+### ▶️ Como Executar
 
 1. Compile e execute o projeto `WinerySys` (Publisher) para publicar os serviços em:
    - `http://localhost:8085/WineStockService?wsdl`
